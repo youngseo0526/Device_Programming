@@ -1,0 +1,187 @@
+# Reading C:/altera/13.1/modelsim_ase/tcl/vsim/pref.tcl 
+# do lab_10_mp_EC2_run_msim_rtl_vhdl.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying C:\altera\13.1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\13.1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vcom -93 -work work {C:/altera/13.1/quartus/bin64/work/lab_10/lab_10_mp_ec2.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package LPM_COMPONENTS
+# -- Compiling entity lab_10_mp_EC2
+# -- Compiling architecture FSMD of lab_10_mp_EC2
+# 
+vsim +altera -do lab_10_mp_EC2_run_msim_rtl_vhdl.do -l msim_transcript -gui rtl_work.lab_10_mp_ec2
+# vsim +altera -do lab_10_mp_EC2_run_msim_rtl_vhdl.do -l msim_transcript -gui rtl_work.lab_10_mp_ec2 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading lpm.lpm_components
+# Loading rtl_work.lab_10_mp_ec2(fsmd)
+# Loading lpm.lpm_common_conversion(body)
+# Loading lpm.lpm_device_families(body)
+# Loading lpm.lpm_ram_dq(lpm_syn)
+# do lab_10_mp_EC2_run_msim_rtl_vhdl.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {C:/altera/13.1/quartus/bin64/work/lab_10/lab_10_mp_ec2.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package LPM_COMPONENTS
+# -- Compiling entity lab_10_mp_EC2
+# -- Compiling architecture FSMD of lab_10_mp_EC2
+# 
+wave create -pattern none -portmode in -language vhdl /lab_10_mp_ec2/clock
+# lab_10_mp_ec2
+wave create -pattern none -portmode in -language vhdl /lab_10_mp_ec2/reset
+# lab_10_mp_ec2
+wave create -pattern none -portmode in -language vhdl /lab_10_mp_ec2/enter
+# lab_10_mp_ec2
+wave create -pattern none -portmode in -language vhdl -range 7 0 /lab_10_mp_ec2/input
+# lab_10_mp_ec2
+wave create -pattern none -portmode out -language vhdl -range 7 0 /lab_10_mp_ec2/output
+# lab_10_mp_ec2
+wave create -pattern none -portmode out -language vhdl /lab_10_mp_ec2/halt
+# lab_10_mp_ec2
+add wave -position end  sim:/lab_10_mp_ec2/output
+add wave -position end  sim:/lab_10_mp_ec2/halt
+add wave -position end  sim:/lab_10_mp_ec2/state
+add wave -position end  sim:/lab_10_mp_ec2/IR
+add wave -position end  sim:/lab_10_mp_ec2/PC
+add wave -position end  sim:/lab_10_mp_ec2/A
+add wave -position end  sim:/lab_10_mp_ec2/memory_address
+add wave -position end  sim:/lab_10_mp_ec2/memory_data
+add wave -position end  sim:/lab_10_mp_ec2/MemWr
+wave modify -driver freeze -pattern clock -initialvalue 0 -period 100ns -dutycycle 50 -starttime 0ns -endtime 10000ns Edit:/lab_10_mp_ec2/clock
+# lab_10_mp_ec2
+wave modify -driver freeze -pattern constant -value 0 -starttime 0ns -endtime 10000ns Edit:/lab_10_mp_ec2/reset
+# lab_10_mp_ec2
+wave modify -driver freeze -pattern constant -value 0 -starttime 0ns -endtime 10000ns Edit:/lab_10_mp_ec2/enter
+# lab_10_mp_ec2
+wave modify -driver freeze -pattern constant -value 00000100 -range 7 0 -starttime 0ns -endtime 10000ns Edit:/lab_10_mp_ec2/input
+# lab_10_mp_ec2
+wave edit invert -start 0ps -end 83516ps Edit:/lab_10_mp_ec2/reset
+wave edit invert -start 491819ps -end 992918ps Edit:/lab_10_mp_ec2/enter
+run -all
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /lab_10_mp_ec2/memory
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ps  Iteration: 0  Instance: /lab_10_mp_ec2/memory
+# ** Error: Unknown intended_device_family UNUSED
+#    Time: 0 ps  Iteration: 0  Instance: /lab_10_mp_ec2/memory
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 50 ns  Iteration: 2  Instance: /lab_10_mp_ec2/memory
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 50 ns  Iteration: 2  Instance: /lab_10_mp_ec2/memory
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 100 ns  Iteration: 0  Instance: /lab_10_mp_ec2/memory
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 100 ns  Iteration: 0  Instance: /lab_10_mp_ec2/memory
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 150 ns  Iteration: 0  Instance: /lab_10_mp_ec2/memory
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 150 ns  Iteration: 0  Instance: /lab_10_mp_ec2/memory
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 200 ns  Iteration: 0  Instance: /lab_10_mp_ec2/memory
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 200 ns  Iteration: 0  Instance: /lab_10_mp_ec2/memory
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 250 ns  Iteration: 0  Instance: /lab_10_mp_ec2/memory
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 250 ns  Iteration: 0  Instance: /lab_10_mp_ec2/memory
+wave edit invert -start 1503297ps -end 1985837ps Edit:/lab_10_mp_ec2/enter
+wave modify -driver freeze -pattern constant -value 00000010 -starttime 1500ns -endtime 10000ns Edit:/lab_10_mp_ec2/enter
+# ** Error: (vish-4026) Value "00000010" does not represent a literal of the enumeration type.
+#Invalid value to -value switch: 00000010
+# Usage: wave modify -driver <freeze|deposit|drive|expectedOutput> -pattern constant -value <value> [-range <msb lsb>] -starttime <Time> -endtime <Time> netName
+wave modify -driver freeze -pattern constant -value 00000010 -range 7 0 -starttime 1500ns -endtime 10000ns Edit:/lab_10_mp_ec2/input
+# lab_10_mp_ec2
+restart -f
+# Loading rtl_work.lab_10_mp_ec2(fsmd)
+run -all
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /lab_10_mp_ec2/memory
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ps  Iteration: 0  Instance: /lab_10_mp_ec2/memory
+# ** Error: Unknown intended_device_family UNUSED
+#    Time: 0 ps  Iteration: 0  Instance: /lab_10_mp_ec2/memory
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 50 ns  Iteration: 2  Instance: /lab_10_mp_ec2/memory
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 50 ns  Iteration: 2  Instance: /lab_10_mp_ec2/memory
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 100 ns  Iteration: 0  Instance: /lab_10_mp_ec2/memory
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 100 ns  Iteration: 0  Instance: /lab_10_mp_ec2/memory
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 150 ns  Iteration: 0  Instance: /lab_10_mp_ec2/memory
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 150 ns  Iteration: 0  Instance: /lab_10_mp_ec2/memory
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 200 ns  Iteration: 0  Instance: /lab_10_mp_ec2/memory
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 200 ns  Iteration: 0  Instance: /lab_10_mp_ec2/memory
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 250 ns  Iteration: 0  Instance: /lab_10_mp_ec2/memory
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 250 ns  Iteration: 0  Instance: /lab_10_mp_ec2/memory
+wave modify -driver freeze -pattern clock -initialvalue 0 -period 100ns -dutycycle 50 -starttime 0ns -endtime 100000ns Edit:/lab_10_mp_ec2/clock
+# lab_10_mp_ec2
+wave modify -driver freeze -pattern constant -value 0 -starttime 0ns -endtime 100000ns Edit:/lab_10_mp_ec2/reset
+# lab_10_mp_ec2
+wave modify -driver freeze -pattern constant -value 0 -starttime 0ns -endtime 100000ns Edit:/lab_10_mp_ec2/enter
+# lab_10_mp_ec2
+wave edit invert -start 0ps -end 111355ps Edit:/lab_10_mp_ec2/reset
+wave modify -driver freeze -pattern constant -value 00000100 -range 7 0 -starttime 0ns -endtime 100000ns Edit:/lab_10_mp_ec2/input
+# lab_10_mp_ec2
+wave edit invert -start 1020757ps -end 1948718ps Edit:/lab_10_mp_ec2/enter
+restart -f
+run -all
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /lab_10_mp_ec2/memory
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ps  Iteration: 0  Instance: /lab_10_mp_ec2/memory
+# ** Error: Unknown intended_device_family UNUSED
+#    Time: 0 ps  Iteration: 0  Instance: /lab_10_mp_ec2/memory
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 50 ns  Iteration: 2  Instance: /lab_10_mp_ec2/memory
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 50 ns  Iteration: 2  Instance: /lab_10_mp_ec2/memory
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 100 ns  Iteration: 0  Instance: /lab_10_mp_ec2/memory
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 100 ns  Iteration: 0  Instance: /lab_10_mp_ec2/memory
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 150 ns  Iteration: 0  Instance: /lab_10_mp_ec2/memory
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 150 ns  Iteration: 0  Instance: /lab_10_mp_ec2/memory
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 200 ns  Iteration: 0  Instance: /lab_10_mp_ec2/memory
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 200 ns  Iteration: 0  Instance: /lab_10_mp_ec2/memory
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 250 ns  Iteration: 0  Instance: /lab_10_mp_ec2/memory
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 250 ns  Iteration: 0  Instance: /lab_10_mp_ec2/memory
+wave editwrite -file C:/altera/13.1/quartus/bin64/work/lab_10/simulation/modelsim/wave.do

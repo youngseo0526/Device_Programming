@@ -1,0 +1,162 @@
+# Reading C:/altera/13.1/modelsim_ase/tcl/vsim/pref.tcl 
+# do Lab_06_run_msim_gate_vhdl.do 
+# if {[file exists gate_work]} {
+# 	vdel -lib gate_work -all
+# }
+# vlib gate_work
+# vmap work gate_work
+# Copying C:\altera\13.1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\13.1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vcom -93 -work work {Lab_06_6_1200mv_85c_slow.vho}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package VITAL_Timing
+# -- Loading package VITAL_Primitives
+# -- Loading package cycloneiv_atom_pack
+# -- Loading package cycloneiv_components
+# -- Compiling entity Lab_06
+# -- Compiling architecture structure of Lab_06
+# 
+vsim +altera -do Lab_06_run_msim_gate_vhdl.do -l msim_transcript -gui -sdftyp /=C:/altera/13.1/quartus/bin64/work/Lab_06/simulation/modelsim/Lab_06_vhd.sdo gate_work.lab_06
+# vsim +altera -do Lab_06_run_msim_gate_vhdl.do -l msim_transcript -gui -sdftyp /=C:/altera/13.1/quartus/bin64/work/Lab_06/simulation/modelsim/Lab_06_vhd.sdo gate_work.lab_06 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.vital_timing(body)
+# Loading ieee.vital_primitives(body)
+# Loading cycloneiv.cycloneiv_atom_pack(body)
+# Loading cycloneiv.cycloneiv_components
+# Loading gate_work.lab_06(structure)
+# Loading ieee.std_logic_arith(body)
+# Loading cycloneiv.cycloneiv_io_obuf(arch)
+# Loading cycloneiv.cycloneiv_io_ibuf(arch)
+# Loading cycloneiv.cycloneiv_lcell_comb(vital_lcell_comb)
+# Loading cycloneiv.cycloneiv_clkctrl(vital_clkctrl)
+# Loading cycloneiv.cycloneiv_ena_reg(behave)
+# Loading instances from C:/altera/13.1/quartus/bin64/work/Lab_06/simulation/modelsim/Lab_06_vhd.sdo
+# Loading timing data from C:/altera/13.1/quartus/bin64/work/Lab_06/simulation/modelsim/Lab_06_vhd.sdo
+# ** Warning: Design size of 2 instances exceeds ModelSim ALTERA recommended capacity.
+# This may because you are loading cell libraries which are not recommended with
+# the ModelSim Altera version. Expect performance to be adversely affected.
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /lab_06 File: Lab_06_6_1200mv_85c_slow.vho
+# do Lab_06_run_msim_gate_vhdl.do 
+# if {[file exists gate_work]} {
+# 	vdel -lib gate_work -all
+# }
+# vlib gate_work
+# vmap work gate_work
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {Lab_06_6_1200mv_85c_slow.vho}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package VITAL_Timing
+# -- Loading package VITAL_Primitives
+# -- Loading package cycloneiv_atom_pack
+# -- Loading package cycloneiv_components
+# -- Compiling entity Lab_06
+# -- Compiling architecture structure of Lab_06
+# 
+wave create -pattern none -portmode in -language vhdl -range 7 0 /lab_06/data_in
+# lab_06
+wave create -pattern none -portmode in -language vhdl -range 7 0 /lab_06/address
+# lab_06
+wave create -pattern none -portmode in -language vhdl /lab_06/wr
+# lab_06
+wave create -pattern none -portmode out -language vhdl -range 7 0 /lab_06/data_out
+# lab_06
+vsim gate_work.lab_06
+# vsim gate_work.lab_06 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.vital_timing(body)
+# Loading ieee.vital_primitives(body)
+# Loading cycloneiv.cycloneiv_atom_pack(body)
+# Loading cycloneiv.cycloneiv_components
+# Loading gate_work.lab_06(structure)
+# Loading ieee.std_logic_arith(body)
+# Loading cycloneiv.cycloneiv_io_obuf(arch)
+# Loading cycloneiv.cycloneiv_io_ibuf(arch)
+# Loading cycloneiv.cycloneiv_lcell_comb(vital_lcell_comb)
+# Loading cycloneiv.cycloneiv_clkctrl(vital_clkctrl)
+# Loading cycloneiv.cycloneiv_ena_reg(behave)
+# ** Warning: Design size of 2 instances exceeds ModelSim ALTERA recommended capacity.
+# This may because you are loading cell libraries which are not recommended with
+# the ModelSim Altera version. Expect performance to be adversely affected.
+wave create -pattern none -portmode in -language vhdl -range 7 0 /lab_06/data_in
+# lab_06
+wave create -pattern none -portmode in -language vhdl -range 7 0 /lab_06/address
+# lab_06
+wave create -pattern none -portmode in -language vhdl /lab_06/wr
+# lab_06
+wave create -pattern none -portmode out -language vhdl -range 7 0 /lab_06/data_out
+# lab_06
+add wave -position end  sim:/lab_06/data_out
+wave modify -driver freeze -pattern constant -value 0 -starttime 0ns -endtime 1000ns Edit:/lab_06/wr
+# lab_06
+wave modify -driver freeze -pattern random -initialvalue (no value) -period 50ns -random_type Uniform -seed 5 -range 7 0 -starttime 0ns -endtime 1000ns Edit:/lab_06/data_in
+# Value length (3) does not equal array index length (8).
+# 
+#Invalid value to -initialvalue switch: (no
+# 
+wave modify -driver freeze -pattern constant -value 0 -range 7 0 -starttime 0ns -endtime 1000ns Edit:/lab_06/data_in
+# Value length (1) does not equal array index length (8).
+# 
+#Invalid value to -value switch: 0
+# Usage: wave create -driver <freeze|deposit|drive|expectedOutput> -pattern constant -value <value> [-range <msb lsb>] -starttime <Time> -endtime <Time> netName
+wave modify -driver freeze -pattern random -initialvalue 00000000 -period 50ns -random_type Uniform -seed 5 -range 7 0 -starttime 0ns -endtime 1000ns Edit:/lab_06/data_in
+# lab_06
+wave modify -driver freeze -pattern random -initialvalue 00000000 -period 50ns -random_type Uniform -seed 5 -range 7 0 -starttime 0ns -endtime 1000ns Edit:/lab_06/address
+# lab_06
+wave modify -driver freeze -pattern random -initialvalue 00000000 -period 50ns -random_type Normal -seed 5 -range 7 0 -starttime 0ns -endtime 1000ns Edit:/lab_06/address
+# lab_06
+wave edit invert -start 65767ps -end 81625ps Edit:/lab_06/wr
+wave edit invert -start 154855ps -end 204762ps Edit:/lab_06/wr
+run -all
+restart -f
+# ** Warning: Design size of 1 instances exceeds ModelSim ALTERA recommended capacity.
+# This may because you are loading cell libraries which are not recommended with
+# the ModelSim Altera version. Expect performance to be adversely affected.
+wave edit invert -start 154855ps -end 204762ps Edit:/lab_06/wr
+wave modify -driver freeze -pattern constant -value 0 -starttime 0ns -endtime 1000ns Edit:/lab_06/wr
+# lab_06
+wave modify -driver freeze -pattern random -initialvalue 00000000 -period 10ns -random_type Uniform -seed 5 -range 7 0 -starttime 0ns -endtime 1000ns Edit:/lab_06/data_in
+# lab_06
+wave modify -driver freeze -pattern random -initialvalue 00000000 -period 10ns -random_type Normal -seed 5 -range 7 0 -starttime 0ns -endtime 1000ns Edit:/lab_06/address
+# lab_06
+wave modify -driver freeze -pattern random -initialvalue 00000000 -period 50ns -random_type Normal -seed 5 -range 7 0 -starttime 0ns -endtime 1000ns Edit:/lab_06/address
+# lab_06
+wave modify -driver freeze -pattern random -initialvalue 00000000 -period 20ns -random_type Normal -seed 5 -range 7 0 -starttime 0ns -endtime 1000ns Edit:/lab_06/address
+# lab_06
+wave modify -driver freeze -pattern random -initialvalue 00000000 -period 10ns -random_type Exponential -seed 5 -range 7 0 -starttime 0ns -endtime 1000ns Edit:/lab_06/data_in
+# lab_06
+wave modify -driver freeze -pattern random -initialvalue 00000000 -period 10ns -random_type Normal -seed 5 -range 7 0 -starttime 0ns -endtime 1000ns Edit:/lab_06/data_in
+# lab_06
+wave modify -driver freeze -pattern random -initialvalue 00000000 -period 10ns -random_type Uniform -seed 5 -range 7 0 -starttime 0ns -endtime 1000ns Edit:/lab_06/data_in
+# lab_06
+wave modify -driver freeze -pattern random -initialvalue 00000000 -period 10ns -random_type Poisson -seed 5 -range 7 0 -starttime 0ns -endtime 1000ns Edit:/lab_06/data_in
+# lab_06
+wave edit invert -start 7696ps -end 12360ps Edit:/lab_06/wr
+wave edit invert -start 27986ps -end 33350ps Edit:/lab_06/wr
+wave edit invert -start 51774ps -end 57254ps Edit:/lab_06/wr
+wave edit invert -start 67282ps -end 73229ps Edit:/lab_06/wr
+run -all
+wave edit undo 1
+wave edit undo 1
+wave edit invert -start 48042ps -end 53873ps Edit:/lab_06/wr
+wave edit invert -start 67516ps -end 74046ps Edit:/lab_06/wr
+restart -f
+# ** Warning: Design size of 1 instances exceeds ModelSim ALTERA recommended capacity.
+# This may because you are loading cell libraries which are not recommended with
+# the ModelSim Altera version. Expect performance to be adversely affected.
+run -all
+wave editwrite -file C:/altera/13.1/quartus/bin64/work/Lab_06/simulation/modelsim/wave.do

@@ -1,0 +1,208 @@
+# Reading C:/altera/13.1/modelsim_ase/tcl/vsim/pref.tcl 
+# do Lab_08_1_run_msim_gate_vhdl.do 
+# if {[file exists gate_work]} {
+# 	vdel -lib gate_work -all
+# }
+# vlib gate_work
+# vmap work gate_work
+# Copying C:\altera\13.1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\13.1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vcom -93 -work work {Lab_08_1_6_1200mv_85c_slow.vho}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package VITAL_Timing
+# -- Loading package VITAL_Primitives
+# -- Loading package dffeas_pack
+# -- Loading package altera_primitives_components
+# -- Loading package cycloneiv_atom_pack
+# -- Loading package cycloneiv_components
+# -- Compiling entity lab_08_1
+# -- Compiling architecture structure of lab_08_1
+# 
+vsim +altera -do Lab_08_1_run_msim_gate_vhdl.do -l msim_transcript -gui -sdftyp /=C:/altera/13.1/quartus/bin64/work/Lab_08_1/simulation/modelsim/Lab_08_1_vhd.sdo gate_work.lab_08_1
+# vsim +altera -do Lab_08_1_run_msim_gate_vhdl.do -l msim_transcript -gui -sdftyp /=C:/altera/13.1/quartus/bin64/work/Lab_08_1/simulation/modelsim/Lab_08_1_vhd.sdo gate_work.lab_08_1 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.vital_timing(body)
+# Loading ieee.vital_primitives(body)
+# Loading altera.dffeas_pack
+# Loading altera.altera_primitives_components
+# Loading cycloneiv.cycloneiv_atom_pack(body)
+# Loading cycloneiv.cycloneiv_components
+# Loading gate_work.lab_08_1(structure)
+# SDF 10.1d Compiler 2012.11 Nov  2 2012
+# 
+# Loading ieee.std_logic_arith(body)
+# Loading cycloneiv.cycloneiv_io_obuf(arch)
+# Loading cycloneiv.cycloneiv_io_ibuf(arch)
+# Loading cycloneiv.cycloneiv_clkctrl(vital_clkctrl)
+# Loading cycloneiv.cycloneiv_ena_reg(behave)
+# Loading cycloneiv.cycloneiv_lcell_comb(vital_lcell_comb)
+# Loading altera.dffeas(vital_dffeas)
+# Loading instances from C:/altera/13.1/quartus/bin64/work/Lab_08_1/simulation/modelsim/Lab_08_1_vhd.sdo
+# Loading timing data from C:/altera/13.1/quartus/bin64/work/Lab_08_1/simulation/modelsim/Lab_08_1_vhd.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /lab_08_1 File: Lab_08_1_6_1200mv_85c_slow.vho
+# do Lab_08_1_run_msim_gate_vhdl.do 
+# if {[file exists gate_work]} {
+# 	vdel -lib gate_work -all
+# }
+# vlib gate_work
+# vmap work gate_work
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {Lab_08_1_6_1200mv_85c_slow.vho}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package VITAL_Timing
+# -- Loading package VITAL_Primitives
+# -- Loading package dffeas_pack
+# -- Loading package altera_primitives_components
+# -- Loading package cycloneiv_atom_pack
+# -- Loading package cycloneiv_components
+# -- Compiling entity lab_08_1
+# -- Compiling architecture structure of lab_08_1
+# 
+vsim gate_work.lab_08_1
+wave create -pattern none -portmode in -language vhdl /lab_08_1/clk
+# lab_08_1
+wave create -pattern none -portmode in -language vhdl /lab_08_1/load
+# lab_08_1
+wave create -pattern none -portmode in -language vhdl /lab_08_1/clear
+# lab_08_1
+wave create -pattern none -portmode in -language vhdl /lab_08_1/out_sel
+# lab_08_1
+wave create -pattern none -portmode out -language vhdl /lab_08_1/iNOT10
+# lab_08_1
+wave create -pattern none -portmode out -language vhdl -range 3 0 /lab_08_1/dp_out
+# lab_08_1
+# vsim gate_work.lab_08_1 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.vital_timing(body)
+# Loading ieee.vital_primitives(body)
+# Loading altera.dffeas_pack
+# Loading altera.altera_primitives_components
+# Loading cycloneiv.cycloneiv_atom_pack(body)
+# Loading cycloneiv.cycloneiv_components
+# Loading gate_work.lab_08_1(structure)
+# Loading ieee.std_logic_arith(body)
+# Loading cycloneiv.cycloneiv_io_obuf(arch)
+# Loading cycloneiv.cycloneiv_io_ibuf(arch)
+# Loading cycloneiv.cycloneiv_clkctrl(vital_clkctrl)
+# Loading cycloneiv.cycloneiv_ena_reg(behave)
+# Loading cycloneiv.cycloneiv_lcell_comb(vital_lcell_comb)
+# Loading altera.dffeas(vital_dffeas)
+wave create -pattern none -portmode in -language vhdl /lab_08_1/clk
+# lab_08_1
+wave create -pattern none -portmode in -language vhdl /lab_08_1/load
+# lab_08_1
+wave create -pattern none -portmode in -language vhdl /lab_08_1/clear
+# lab_08_1
+wave create -pattern none -portmode in -language vhdl /lab_08_1/out_sel
+# lab_08_1
+wave create -pattern none -portmode out -language vhdl /lab_08_1/iNOT10
+# lab_08_1
+wave create -pattern none -portmode out -language vhdl -range 3 0 /lab_08_1/dp_out
+# lab_08_1
+add wave -position end  sim:/lab_08_1/iNOT10
+add wave -position end  sim:/lab_08_1/dp_out
+wave modify -driver freeze -pattern clock -initialvalue o -period 100ns -dutycycle 50 -starttime 0ns -endtime 1000ns Edit:/lab_08_1/clk
+# ** Error: (vish-4026) Value "o" does not represent a literal of the enumeration type.
+#Invalid value to -initialvalue switch: o
+# 
+wave modify -driver freeze -pattern clock -initialvalue (no value) -period 100ns -dutycycle 50 -starttime 0ns -endtime 1000ns Edit:/lab_08_1/clk
+# ** Error: (vish-4026) Value "(no" does not represent a literal of the enumeration type.
+#Invalid value to -initialvalue switch: (no
+# 
+wave modify -driver freeze -pattern clock -initialvalue 0 -period 100ns -dutycycle 50 -starttime 0ns -endtime 1000ns Edit:/lab_08_1/clk
+# lab_08_1
+wave modify -driver freeze -pattern clock -initialvalue 0 -period 100ns -dutycycle 50 -starttime 0ns -endtime 1000ns Edit:/lab_08_1/clk
+# lab_08_1
+wave modify -driver freeze -pattern clock -initialvalue 0 -period 100ns -dutycycle 50 -starttime 50ns -endtime 1000ns Edit:/lab_08_1/load
+# lab_08_1
+wave modify -driver freeze -pattern clock -initialvalue 0 -period 200ns -dutycycle 50 -starttime 50ns -endtime 1000ns Edit:/lab_08_1/load
+# lab_08_1
+wave modify -driver freeze -pattern clock -initialvalue 0 -period 50ns -dutycycle 50 -starttime 0ns -endtime 1000ns Edit:/lab_08_1/clk
+# lab_08_1
+wave modify -driver freeze -pattern clock -initialvalue 0 -period 100ns -dutycycle 50 -starttime 50ns -endtime 1000ns Edit:/lab_08_1/load
+# lab_08_1
+wave modify -driver freeze -pattern clock -initialvalue 0 -period 100ns -dutycycle 50 -starttime 25ns -endtime 1000ns Edit:/lab_08_1/load
+# lab_08_1
+wave modify -driver freeze -pattern clock -initialvalue 0 -period 100ns -dutycycle 50 -starttime 5ns -endtime 1000ns Edit:/lab_08_1/load
+# lab_08_1
+wave modify -driver freeze -pattern clock -initialvalue 0 -period 100ns -dutycycle 0 -starttime 5ns -endtime 1000ns Edit:/lab_08_1/load
+# lab_08_1
+wave modify -driver freeze -pattern clock -initialvalue 0 -period 100ns -dutycycle 50 -starttime 25ns -endtime 1000ns Edit:/lab_08_1/load
+# lab_08_1
+wave modify -driver freeze -pattern clock -initialvalue 0 -period 100ns -dutycycle 50 -starttime 10ns -endtime 1000ns Edit:/lab_08_1/load
+# lab_08_1
+wave modify -driver freeze -pattern clock -initialvalue 0 -period 100ns -dutycycle 50 -starttime 0ns -endtime 1000ns Edit:/lab_08_1/load
+# lab_08_1
+wave modify -driver freeze -pattern clock -initialvalue 0 -period 100ns -dutycycle 50 -starttime 50ns -endtime 1000ns Edit:/lab_08_1/load
+# lab_08_1
+wave modify -driver freeze -pattern clock -initialvalue 0 -period 100ns -dutycycle 50 -starttime 25ns -endtime 1000ns Edit:/lab_08_1/load
+# lab_08_1
+wave modify -driver freeze -pattern clock -initialvalue 0 -period 100ns -dutycycle 50 -starttime 25ns -endtime 1000ns Edit:/lab_08_1/out_sel
+# lab_08_1
+wave modify -driver freeze -pattern constant -value 0 -starttime 0ns -endtime 1000ns Edit:/lab_08_1/clear
+# lab_08_1
+wave modify -driver freeze -pattern clock -initialvalue 0 -period 50ns -dutycycle 50 -starttime 0ns -endtime 1000ns Edit:/lab_08_1/load
+# lab_08_1
+wave modify -driver freeze -pattern clock -initialvalue 0 -period 50ns -dutycycle 10 -starttime 0ns -endtime 1000ns Edit:/lab_08_1/load
+# lab_08_1
+wave modify -driver freeze -pattern clock -initialvalue 0 -period 100ns -dutycycle 50 -starttime 0ns -endtime 1000ns Edit:/lab_08_1/load
+# lab_08_1
+wave modify -driver freeze -pattern clock -initialvalue 0 -period 100ns -dutycycle 50 -starttime 50ns -endtime 1000ns Edit:/lab_08_1/load
+# lab_08_1
+wave modify -driver freeze -pattern clock -initialvalue 0 -period 100ns -dutycycle 50 -starttime 0ns -endtime 1000ns Edit:/lab_08_1/load
+# lab_08_1
+wave modify -driver freeze -pattern clock -initialvalue 1 -period 100ns -dutycycle 50 -starttime 0ns -endtime 1000ns Edit:/lab_08_1/load
+# lab_08_1
+wave modify -driver freeze -pattern clock -initialvalue 1 -period 100ns -dutycycle 50 -starttime 50ns -endtime 1000ns Edit:/lab_08_1/load
+# lab_08_1
+wave edit invert -start 0ps -end 24781ps Edit:/lab_08_1/load
+wave edit undo 1
+wave modify -driver freeze -pattern clock -initialvalue 1 -period 100ns -dutycycle 50 -starttime 50ns -endtime 1000ns Edit:/lab_08_1/load
+# lab_08_1
+wave modify -driver freeze -pattern clock -initialvalue 0 -period 100ns -dutycycle 50 -starttime 0ns -endtime 1000ns Edit:/lab_08_1/load
+# lab_08_1
+wave modify -driver freeze -pattern clock -initialvalue 0 -period 100ns -dutycycle 50 -starttime 50ns -endtime 1000ns Edit:/lab_08_1/load
+# lab_08_1
+wave modify -driver freeze -pattern clock -initialvalue 0 -period 100ns -dutycycle 25 -starttime 50ns -endtime 1000ns Edit:/lab_08_1/load
+# lab_08_1
+wave modify -driver freeze -pattern clock -initialvalue 0 -period 100ns -dutycycle 50 -starttime 50ns -endtime 1000ns Edit:/lab_08_1/load
+# lab_08_1
+wave modify -driver freeze -pattern clock -initialvalue 0 -period 100ns -dutycycle 50 -starttime 0ns -endtime 1000ns Edit:/lab_08_1/load
+# lab_08_1
+wave modify -driver freeze -pattern clock -initialvalue 0 -period 100ns -dutycycle 50 -starttime 25ns -endtime 1000ns Edit:/lab_08_1/load
+# lab_08_1
+wave modify -driver freeze -pattern clock -initialvalue 0 -period 100ns -dutycycle 50 -starttime 50ns -endtime 1000ns Edit:/lab_08_1/out_sel
+# lab_08_1
+wave modify -driver freeze -pattern clock -initialvalue 0 -period 100ns -dutycycle 50 -starttime 75ns -endtime 1000ns Edit:/lab_08_1/out_sel
+# lab_08_1
+wave edit invert -start 0ps -end 85606ps Edit:/lab_08_1/clear
+run -all
+wave modify -driver freeze -pattern clock -initialvalue 0 -period 50ns -dutycycle 50 -starttime 0ns -endtime 1500ns Edit:/lab_08_1/clk
+# lab_08_1
+wave modify -driver freeze -pattern clock -initialvalue 0 -period 100ns -dutycycle 50 -starttime 25ns -endtime 1500ns Edit:/lab_08_1/load
+# lab_08_1
+wave modify -driver freeze -pattern constant -value 0 -starttime 0ns -endtime 1500ns Edit:/lab_08_1/clear
+# lab_08_1
+wave edit invert -start 0ps -end 83354ps Edit:/lab_08_1/clear
+wave modify -driver freeze -pattern clock -initialvalue 0 -period 100ns -dutycycle 50 -starttime 75ns -endtime 1500ns Edit:/lab_08_1/out_sel
+# lab_08_1
+restart -f
+run -all
+wave modify -driver freeze -pattern clock -initialvalue 0 -period 50ns -dutycycle 50 -starttime 0ns -endtime 1200ns Edit:/lab_08_1/clk
+# lab_08_1
+wave editwrite -file C:/altera/13.1/quartus/bin64/work/Lab_08_1/simulation/modelsim/wave.do

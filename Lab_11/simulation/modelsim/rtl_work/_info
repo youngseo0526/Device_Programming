@@ -1,0 +1,46 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\altera\13.1\quartus\bin64\work\Lab_11\simulation\modelsim
+Elab_11
+Z1 w1622619526
+Z2 DPx3 lpm 14 lpm_components 0 22 Wog`[CL=7N916SZzK3:hL2
+Z3 DPx4 ieee 18 std_logic_unsigned 0 22 RYmj;=TK`k=k>D@Cz`zoB3
+Z4 DPx4 ieee 15 std_logic_arith 0 22 4`Y?g_lkdn;7UL9IiJck01
+Z5 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z6 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z7 dC:\altera\13.1\quartus\bin64\work\Lab_11\simulation\modelsim
+Z8 8C:/altera/13.1/quartus/bin64/work/Lab_11/lab_11.vhd
+Z9 FC:/altera/13.1/quartus/bin64/work/Lab_11/lab_11.vhd
+l0
+L9
+VPbN99[Mz6kZi92JLYBIPO0
+!s100 fd]3OdA?@Q5?ZQBJ_[iL93
+Z10 OV;C;10.1d;51
+31
+!i10b 1
+Z11 !s108 1622982159.105000
+Z12 !s90 -reportprogress|300|-93|-work|work|C:/altera/13.1/quartus/bin64/work/Lab_11/lab_11.vhd|
+Z13 !s107 C:/altera/13.1/quartus/bin64/work/Lab_11/lab_11.vhd|
+Z14 o-93 -work work -O0
+Z15 tExplicit 1
+Afsmd
+R2
+R3
+R4
+R5
+R6
+DEx4 work 6 lab_11 0 22 PbN99[Mz6kZi92JLYBIPO0
+l26
+L16
+V`iV_lDk:gD8OP]eiSSHWI1
+!s100 HZAgV6o0Al`SQZ1mco_cz0
+R10
+31
+!i10b 1
+R11
+R12
+R13
+R14
+R15

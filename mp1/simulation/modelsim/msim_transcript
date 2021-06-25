@@ -1,0 +1,231 @@
+# Reading C:/altera/13.1/modelsim_ase/tcl/vsim/pref.tcl 
+# do mp_run_msim_rtl_vhdl.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying C:\altera\13.1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\13.1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vcom -93 -work work {C:/altera/13.1/quartus/bin64/work/mp1/mp.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity mp
+# -- Compiling architecture Structural of mp
+# vcom -93 -work work {C:/altera/13.1/quartus/bin64/work/mp1/cu.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity cu
+# -- Compiling architecture FSM of cu
+# vcom -93 -work work {C:/altera/13.1/quartus/bin64/work/mp1/dp.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package LPM_COMPONENTS
+# -- Compiling entity dp
+# -- Compiling architecture Structural of dp
+# vcom -93 -work work {C:/altera/13.1/quartus/bin64/work/mp1/reg.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity reg
+# -- Compiling architecture Behavior of reg
+# vcom -93 -work work {C:/altera/13.1/quartus/bin64/work/mp1/mux2.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity mux2
+# -- Compiling architecture Behavioral of mux2
+# vcom -93 -work work {C:/altera/13.1/quartus/bin64/work/mp1/increment.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity increment
+# -- Compiling architecture Dataflow of increment
+# vcom -93 -work work {C:/altera/13.1/quartus/bin64/work/mp1/decrement.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity decrement
+# -- Compiling architecture Dataflow of decrement
+# 
+vsim +altera -do mp_run_msim_rtl_vhdl.do -l msim_transcript -gui work.mp
+# vsim +altera -do mp_run_msim_rtl_vhdl.do -l msim_transcript -gui work.mp 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.mp(structural)
+# Loading work.cu(fsm)
+# Loading lpm.lpm_components
+# Loading work.dp(structural)
+# Loading work.reg(behavior)
+# Loading work.mux2(behavioral)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.increment(dataflow)
+# Loading lpm.lpm_common_conversion(body)
+# Loading lpm.lpm_device_families(body)
+# Loading lpm.lpm_rom(lpm_syn)
+# Loading work.decrement(dataflow)
+# do mp_run_msim_rtl_vhdl.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {C:/altera/13.1/quartus/bin64/work/mp1/mp.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity mp
+# -- Compiling architecture Structural of mp
+# vcom -93 -work work {C:/altera/13.1/quartus/bin64/work/mp1/cu.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity cu
+# -- Compiling architecture FSM of cu
+# vcom -93 -work work {C:/altera/13.1/quartus/bin64/work/mp1/dp.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package LPM_COMPONENTS
+# -- Compiling entity dp
+# -- Compiling architecture Structural of dp
+# vcom -93 -work work {C:/altera/13.1/quartus/bin64/work/mp1/reg.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity reg
+# -- Compiling architecture Behavior of reg
+# vcom -93 -work work {C:/altera/13.1/quartus/bin64/work/mp1/mux2.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity mux2
+# -- Compiling architecture Behavioral of mux2
+# vcom -93 -work work {C:/altera/13.1/quartus/bin64/work/mp1/increment.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity increment
+# -- Compiling architecture Dataflow of increment
+# vcom -93 -work work {C:/altera/13.1/quartus/bin64/work/mp1/decrement.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity decrement
+# -- Compiling architecture Dataflow of decrement
+# 
+wave create -pattern none -portmode in -language vhdl /mp/Clock
+# mp
+wave create -pattern none -portmode in -language vhdl /mp/Reset
+# mp
+wave create -pattern none -portmode in -language vhdl -range 7 0 /mp/Input
+# mp
+wave create -pattern none -portmode out -language vhdl -range 7 0 /mp/Output
+# mp
+wave create -pattern none -portmode out -language vhdl /mp/Halt
+# mp
+add wave -position end  sim:/mp/Output
+add wave -position end  sim:/mp/Halt
+add wave -position end  sim:/mp/mp_IRload
+add wave -position end  sim:/mp/mp_PCload
+add wave -position end  sim:/mp/mp_INmux
+add wave -position end  sim:/mp/mp_Aload
+add wave -position end  sim:/mp/mp_JNZmux
+add wave -position end  sim:/mp/mp_IR
+wave modify -driver freeze -pattern constant -value 04 -range 7 0 -starttime 0ns -endtime 1000ns Edit:/mp/Input
+# Value length (2) does not equal array index length (8).
+# 
+#Invalid value to -value switch: 04
+# Usage: wave create -driver <freeze|deposit|drive|expectedOutput> -pattern constant -value <value> [-range <msb lsb>] -starttime <Time> -endtime <Time> netName
+wave modify -driver freeze -pattern constant -value 4 -range 7 0 -starttime 0ns -endtime 1000ns Edit:/mp/Input
+# Value length (1) does not equal array index length (8).
+# 
+#Invalid value to -value switch: 4
+# Usage: wave create -driver <freeze|deposit|drive|expectedOutput> -pattern constant -value <value> [-range <msb lsb>] -starttime <Time> -endtime <Time> netName
+wave modify -driver freeze -pattern constant -value 00000004 -range 7 0 -starttime 0ns -endtime 1000ns Edit:/mp/Input
+# ** Error: (vish-4026) Value "'4'" does not represent a literal of the enumeration type.
+#Invalid value to -value switch: 00000004
+# Usage: wave create -driver <freeze|deposit|drive|expectedOutput> -pattern constant -value <value> [-range <msb lsb>] -starttime <Time> -endtime <Time> netName
+wave modify -driver freeze -pattern clock -initialvalue 0 -period 100ns -dutycycle 50 -starttime 0ns -endtime 3000ns Edit:/mp/Clock
+# mp
+wave modify -driver freeze -pattern clock -initialvalue 0 -period 100ns -dutycycle 50 -starttime 0ns -endtime 5000ns Edit:/mp/Clock
+# mp
+wave modify -driver freeze -pattern clock -initialvalue 0 -period 100ns -dutycycle 50 -starttime 0ns -endtime 10000ns Edit:/mp/Clock
+# mp
+wave modify -driver freeze -pattern constant -value 0 -starttime 0ns -endtime 10000ns Edit:/mp/Reset
+# mp
+wave edit invert -start 0ps -end 103478ps Edit:/mp/Reset
+wave modify -driver freeze -pattern constant -value 4 -range 7 0 -starttime 0ns -endtime 10000ns Edit:/mp/Input
+# Value length (1) does not equal array index length (8).
+# 
+#Invalid value to -value switch: 4
+# Usage: wave create -driver <freeze|deposit|drive|expectedOutput> -pattern constant -value <value> [-range <msb lsb>] -starttime <Time> -endtime <Time> netName
+wave modify -driver freeze -pattern constant -value 00000000 -range 7 0 -starttime 0ns -endtime 10000ns Edit:/mp/Input
+# mp
+wave modify -driver freeze -pattern constant -value 0000000 -range 7 0 -starttime 0ns -endtime 10000ns Edit:/mp/Input
+# Value length (7) does not equal array index length (8).
+# 
+#Invalid value to -value switch: 0000000
+# Usage: wave modify -driver <freeze|deposit|drive|expectedOutput> -pattern constant -value <value> [-range <msb lsb>] -starttime <Time> -endtime <Time> netName
+wave modify -driver freeze -pattern constant -value 00000100 -range 7 0 -starttime 0ns -endtime 10000ns Edit:/mp/Input
+# mp
+wave modify -driver freeze -pattern constant -value 04 -range 7 0 -starttime 0ns -endtime 10000ns Edit:/mp/Input
+# Value length (2) does not equal array index length (8).
+# 
+#Invalid value to -value switch: 04
+# Usage: wave modify -driver <freeze|deposit|drive|expectedOutput> -pattern constant -value <value> [-range <msb lsb>] -starttime <Time> -endtime <Time> netName
+wave modify -driver freeze -pattern constant -value 00000100 -range 7 0 -starttime 0ns -endtime 10000ns Edit:/mp/Input
+# mp
+run -all
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /mp/U1/U7_dec
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /mp/U1/U7_dec
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /mp/U1/U4_ROM
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ps  Iteration: 0  Instance: /mp/U1/U4_ROM
+# ** Error: Unknown INTENDED_DEVICE_FAMILY UNUSED
+#    Time: 0 ps  Iteration: 0  Instance: /mp/U1/U4_ROM
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /mp/U1/U3_inc
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /mp/U1/U3_inc
+wave modify -driver freeze -pattern constant -value 4 -range 7 0 -starttime 0ns -endtime 10000ns Edit:/mp/Input
+# Value length (1) does not equal array index length (8).
+# 
+#Invalid value to -value switch: 4
+# Usage: wave modify -driver <freeze|deposit|drive|expectedOutput> -pattern constant -value <value> [-range <msb lsb>] -starttime <Time> -endtime <Time> netName
+wave editwrite -file C:/altera/13.1/quartus/bin64/work/mp1/simulation/modelsim/wave.do

@@ -1,0 +1,141 @@
+# Reading C:/altera/13.1/modelsim_ase/tcl/vsim/pref.tcl 
+# do Lab_05_run_msim_gate_vhdl.do 
+# if {[file exists gate_work]} {
+# 	vdel -lib gate_work -all
+# }
+# vlib gate_work
+# vmap work gate_work
+# Copying C:\altera\13.1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\13.1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vcom -93 -work work {Lab_05_6_1200mv_85c_slow.vho}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package VITAL_Timing
+# -- Loading package VITAL_Primitives
+# -- Loading package dffeas_pack
+# -- Loading package altera_primitives_components
+# -- Loading package cycloneiv_atom_pack
+# -- Loading package cycloneiv_components
+# -- Compiling entity Lab_05
+# -- Compiling architecture structure of Lab_05
+# 
+vsim +altera -do Lab_05_run_msim_gate_vhdl.do -l msim_transcript -gui -sdftyp /=C:/altera/13.1/quartus/bin64/work/Lab_05/simulation/modelsim/Lab_05_vhd.sdo gate_work.lab_05
+# vsim +altera -do Lab_05_run_msim_gate_vhdl.do -l msim_transcript -gui -sdftyp /=C:/altera/13.1/quartus/bin64/work/Lab_05/simulation/modelsim/Lab_05_vhd.sdo gate_work.lab_05 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.vital_timing(body)
+# Loading ieee.vital_primitives(body)
+# Loading altera.dffeas_pack
+# Loading altera.altera_primitives_components
+# Loading cycloneiv.cycloneiv_atom_pack(body)
+# Loading cycloneiv.cycloneiv_components
+# Loading gate_work.lab_05(structure)
+# SDF 10.1d Compiler 2012.11 Nov  2 2012
+# 
+# Loading ieee.std_logic_arith(body)
+# Loading cycloneiv.cycloneiv_io_obuf(arch)
+# Loading cycloneiv.cycloneiv_io_ibuf(arch)
+# Loading cycloneiv.cycloneiv_clkctrl(vital_clkctrl)
+# Loading cycloneiv.cycloneiv_ena_reg(behave)
+# Loading cycloneiv.cycloneiv_lcell_comb(vital_lcell_comb)
+# Loading altera.dffeas(vital_dffeas)
+# Loading instances from C:/altera/13.1/quartus/bin64/work/Lab_05/simulation/modelsim/Lab_05_vhd.sdo
+# Loading timing data from C:/altera/13.1/quartus/bin64/work/Lab_05/simulation/modelsim/Lab_05_vhd.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /lab_05 File: Lab_05_6_1200mv_85c_slow.vho
+wave create -pattern none -portmode in -language vhdl /lab_05/clk
+# lab_05
+wave create -pattern none -portmode in -language vhdl /lab_05/reset
+# lab_05
+wave create -pattern none -portmode in -language vhdl /lab_05/w
+# lab_05
+wave create -pattern none -portmode in -language vhdl /lab_05/x
+# lab_05
+wave create -pattern none -portmode in -language vhdl /lab_05/y
+# lab_05
+wave create -pattern none -portmode in -language vhdl /lab_05/z
+# lab_05
+wave create -pattern none -portmode out -language vhdl /lab_05/ld_inc_out
+# lab_05
+wave create -pattern none -portmode out -language vhdl -range 1 0 /lab_05/condition_sel_out
+# lab_05
+wave create -pattern none -portmode out -language vhdl -range 1 0 /lab_05/next_address_out
+# lab_05
+wave create -pattern none -portmode out -language vhdl -range 2 0 /lab_05/control_data
+# lab_05
+wave create -pattern none -portmode out -language vhdl -range 6 0 /lab_05/q_out
+# lab_05
+# do Lab_05_run_msim_gate_vhdl.do 
+# if {[file exists gate_work]} {
+# 	vdel -lib gate_work -all
+# }
+# vlib gate_work
+# vmap work gate_work
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {Lab_05_6_1200mv_85c_slow.vho}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package VITAL_Timing
+# -- Loading package VITAL_Primitives
+# -- Loading package dffeas_pack
+# -- Loading package altera_primitives_components
+# -- Loading package cycloneiv_atom_pack
+# -- Loading package cycloneiv_components
+# -- Compiling entity Lab_05
+# -- Compiling architecture structure of Lab_05
+# 
+add wave -position end  sim:/lab_05/ld_inc_out
+add wave -position end  sim:/lab_05/condition_sel_out
+add wave -position end  sim:/lab_05/next_address_out
+add wave -position end  sim:/lab_05/control_data
+add wave -position end  sim:/lab_05/q_out
+add wave -position 10  sim:/lab_05/address
+wave modify -driver freeze -pattern clock -initialvalue 0 -period 100ns -dutycycle 50 -starttime 0ns -endtime 1000ns Edit:/lab_05/clk
+# lab_05
+wave modify -driver freeze -pattern constant -value 0 -starttime 0ns -endtime 1000ns Edit:/lab_05/reset
+# lab_05
+wave modify -driver freeze -pattern constant -value 1 -starttime 0ns -endtime 1000ns Edit:/lab_05/w
+# lab_05
+wave modify -driver freeze -pattern constant -value 1 -starttime 0ns -endtime 1000ns Edit:/lab_05/X
+# lab_05
+wave modify -driver freeze -pattern constant -value 1 -starttime 0ns -endtime 1000ns Edit:/lab_05/Y
+# lab_05
+wave modify -driver freeze -pattern constant -value 1 -starttime 0ns -endtime 1000ns Edit:/lab_05/Z
+# lab_05
+wave edit invert -start 0ps -end 63369ps Edit:/lab_05/reset
+wave edit invert -start 115813ps -end 227255ps Edit:/lab_05/w
+wave edit invert -start 333234ps -end 421733ps Edit:/lab_05/w
+wave edit invert -start 410807ps -end 533175ps Edit:/lab_05/x
+wave edit invert -start 628526ps -end 677692ps Edit:/lab_05/x
+wave edit invert -start 726858ps -end 821911ps Edit:/lab_05/y
+wave edit invert -start 833930ps -end 925706ps Edit:/lab_05/z
+run -all
+wave modify -driver freeze -pattern constant -value 1 -starttime 0ns -endtime 1000ns Edit:/lab_05/w
+# lab_05
+wave modify -driver freeze -pattern constant -value 1 -starttime 0ns -endtime 1000ns Edit:/lab_05/x
+# lab_05
+wave modify -driver freeze -pattern constant -value 1 -starttime 0ns -endtime 1000ns Edit:/lab_05/y
+# lab_05
+wave modify -driver freeze -pattern constant -value 1 -starttime 0ns -endtime 1000ns Edit:/lab_05/z
+# lab_05
+wave edit invert -start 221792ps -end 328864ps Edit:/lab_05/w
+wave edit invert -start 294994ps -end 425010ps Edit:/lab_05/x
+restart -f
+# Loading gate_work.lab_05(structure)
+# Loading instances from C:/altera/13.1/quartus/bin64/work/Lab_05/simulation/modelsim/Lab_05_vhd.sdo
+# Loading timing data from C:/altera/13.1/quartus/bin64/work/Lab_05/simulation/modelsim/Lab_05_vhd.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /lab_05 File: Lab_05_6_1200mv_85c_slow.vho
+wave edit invert -start 522249ps -end 629321ps Edit:/lab_05/x
+wave edit invert -start 592174ps -end 706894ps Edit:/lab_05/y
+run -all
+wave editwrite -file C:/altera/13.1/quartus/bin64/work/Lab_05/simulation/modelsim/wave.do

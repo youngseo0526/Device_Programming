@@ -1,0 +1,102 @@
+# Reading C:/altera/13.1/modelsim_ase/tcl/vsim/pref.tcl 
+# do Lab_08_2_run_msim_gate_vhdl.do 
+# if {[file exists gate_work]} {
+# 	vdel -lib gate_work -all
+# }
+# vlib gate_work
+# vmap work gate_work
+# Copying C:\altera\13.1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\13.1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vcom -93 -work work {Lab_08_2_6_1200mv_85c_slow.vho}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package VITAL_Timing
+# -- Loading package VITAL_Primitives
+# -- Loading package dffeas_pack
+# -- Loading package altera_primitives_components
+# -- Loading package cycloneiv_atom_pack
+# -- Loading package cycloneiv_components
+# -- Compiling entity Lab_08_2
+# -- Compiling architecture structure of Lab_08_2
+# 
+vsim +altera -do Lab_08_2_run_msim_gate_vhdl.do -l msim_transcript -gui -sdftyp /=C:/altera/13.1/quartus/bin64/work/Lab_08_2/simulation/modelsim/Lab_08_2_vhd.sdo gate_work.lab_08_2
+# vsim +altera -do Lab_08_2_run_msim_gate_vhdl.do -l msim_transcript -gui -sdftyp /=C:/altera/13.1/quartus/bin64/work/Lab_08_2/simulation/modelsim/Lab_08_2_vhd.sdo gate_work.lab_08_2 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.vital_timing(body)
+# Loading ieee.vital_primitives(body)
+# Loading altera.dffeas_pack
+# Loading altera.altera_primitives_components
+# Loading cycloneiv.cycloneiv_atom_pack(body)
+# Loading cycloneiv.cycloneiv_components
+# Loading gate_work.lab_08_2(structure)
+# SDF 10.1d Compiler 2012.11 Nov  2 2012
+# 
+# Loading ieee.std_logic_arith(body)
+# Loading cycloneiv.cycloneiv_io_obuf(arch)
+# Loading cycloneiv.cycloneiv_io_ibuf(arch)
+# Loading cycloneiv.cycloneiv_clkctrl(vital_clkctrl)
+# Loading cycloneiv.cycloneiv_ena_reg(behave)
+# Loading cycloneiv.cycloneiv_lcell_comb(vital_lcell_comb)
+# Loading altera.dffeas(vital_dffeas)
+# Loading instances from C:/altera/13.1/quartus/bin64/work/Lab_08_2/simulation/modelsim/Lab_08_2_vhd.sdo
+# Loading timing data from C:/altera/13.1/quartus/bin64/work/Lab_08_2/simulation/modelsim/Lab_08_2_vhd.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /lab_08_2 File: Lab_08_2_6_1200mv_85c_slow.vho
+# do Lab_08_2_run_msim_gate_vhdl.do 
+# if {[file exists gate_work]} {
+# 	vdel -lib gate_work -all
+# }
+# vlib gate_work
+# vmap work gate_work
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {Lab_08_2_6_1200mv_85c_slow.vho}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package VITAL_Timing
+# -- Loading package VITAL_Primitives
+# -- Loading package dffeas_pack
+# -- Loading package altera_primitives_components
+# -- Loading package cycloneiv_atom_pack
+# -- Loading package cycloneiv_components
+# -- Compiling entity Lab_08_2
+# -- Compiling architecture structure of Lab_08_2
+# 
+wave create -pattern none -portmode in -language vhdl /lab_08_2/clk
+# lab_08_2
+wave create -pattern none -portmode in -language vhdl /lab_08_2/load
+# lab_08_2
+wave create -pattern none -portmode in -language vhdl /lab_08_2/clear
+# lab_08_2
+wave create -pattern none -portmode in -language vhdl /lab_08_2/out_sel
+# lab_08_2
+wave create -pattern none -portmode out -language vhdl /lab_08_2/iNOT10
+# lab_08_2
+wave create -pattern none -portmode out -language vhdl -range 3 0 /lab_08_2/dp_out
+# lab_08_2
+add wave -position end  sim:/lab_08_2/iNOT10
+add wave -position end  sim:/lab_08_2/dp_out
+wave modify -driver freeze -pattern clock -initialvalue 0 -period 50ns -dutycycle 50 -starttime 0ns -endtime 1000ns Edit:/lab_08_2/clk
+# lab_08_2
+wave modify -driver freeze -pattern constant -value 1 -starttime 0ns -endtime 1000ns Edit:/lab_08_2/load
+# lab_08_2
+wave modify -driver freeze -pattern constant -value 0 -starttime 0ns -endtime 1000ns Edit:/lab_08_2/out_sel
+# lab_08_2
+wave modify -driver freeze -pattern constant -value 1 -starttime 0ns -endtime 1000ns Edit:/lab_08_2/out_sel
+# lab_08_2
+wave modify -driver freeze -pattern constant -value 0 -starttime 0ns -endtime 1000ns Edit:/lab_08_2/clear
+# lab_08_2
+wave edit invert -start 0ps -end 67560ps Edit:/lab_08_2/load
+wave edit invert -start 0ps -end 38002ps Edit:/lab_08_2/clear
+wave edit invert -start 0ps -end 117174ps Edit:/lab_08_2/out_sel
+run -all
+wave editwrite -file C:/altera/13.1/quartus/bin64/work/Lab_08_2/simulation/modelsim/wave.do

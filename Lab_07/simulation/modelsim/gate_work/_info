@@ -1,0 +1,52 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\altera\13.1\quartus\bin64\work\Lab_07\simulation\modelsim
+Elab_07_dataprocessor
+Z1 w1619769775
+Z2 DPx9 cycloneiv 19 cycloneiv_atom_pack 0 22 4<Pz:n^;SZVoCfc9P95Qf3
+Z3 DPx9 cycloneiv 20 cycloneiv_components 0 22 HYeScVTJ<BN2T1NTEcFXV3
+Z4 DPx4 ieee 16 vital_primitives 0 22 9W@YP9_VCb?_GCJ8e:;YQ0
+Z5 DPx6 altera 11 dffeas_pack 0 22 oY7WPe2I:Taj0>HV`A`AH0
+Z6 DPx4 ieee 12 vital_timing 0 22 7h8zz2S4HVg:a;2TBMI[j1
+Z7 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z8 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z9 DPx6 altera 28 altera_primitives_components 0 22 H[E=U;zSVlD;ca@gnkzIO0
+Z10 dC:\altera\13.1\quartus\bin64\work\Lab_07\simulation\modelsim
+Z11 8Lab_07_DataProcessor_6_1200mv_85c_slow.vho
+Z12 FLab_07_DataProcessor_6_1200mv_85c_slow.vho
+l0
+L36
+VkbNZ1f<h1b4S2>^7>ciKI1
+!s100 41JQEQ`UT<EgMZ_88Han92
+Z13 OV;C;10.1d;51
+31
+!i10b 1
+Z14 !s108 1619769823.098000
+Z15 !s90 -reportprogress|300|-93|-work|work|Lab_07_DataProcessor_6_1200mv_85c_slow.vho|
+Z16 !s107 Lab_07_DataProcessor_6_1200mv_85c_slow.vho|
+Z17 o-93 -work work -O0
+Z18 tExplicit 1
+Astructure
+R2
+R3
+R4
+R5
+R6
+R7
+R8
+R9
+DEx4 work 20 lab_07_dataprocessor 0 22 kbNZ1f<h1b4S2>^7>ciKI1
+l269
+L96
+V=7`I5mZ:MO2cOX^z:]NFT2
+!s100 m7e@X9I]>[m7j:fcP]Roi2
+R13
+31
+!i10b 1
+R14
+R15
+R16
+R17
+R18

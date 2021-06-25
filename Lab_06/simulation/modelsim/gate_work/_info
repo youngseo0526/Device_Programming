@@ -1,0 +1,48 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\altera\13.1\quartus\bin64\work\Lab_06\simulation\modelsim
+Elab_06
+Z1 w1618417649
+Z2 DPx4 ieee 16 vital_primitives 0 22 9W@YP9_VCb?_GCJ8e:;YQ0
+Z3 DPx9 cycloneiv 19 cycloneiv_atom_pack 0 22 4<Pz:n^;SZVoCfc9P95Qf3
+Z4 DPx4 ieee 12 vital_timing 0 22 7h8zz2S4HVg:a;2TBMI[j1
+Z5 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z6 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z7 DPx9 cycloneiv 20 cycloneiv_components 0 22 HYeScVTJ<BN2T1NTEcFXV3
+Z8 dC:\altera\13.1\quartus\bin64\work\Lab_06\simulation\modelsim
+Z9 8Lab_06_6_1200mv_85c_slow.vho
+Z10 FLab_06_6_1200mv_85c_slow.vho
+l0
+L34
+VkGe8JBeH?6C24dl>>TcRO1
+!s100 5oAo`T?6ITc036OL[<JFP3
+Z11 OV;C;10.1d;51
+31
+!i10b 1
+Z12 !s108 1618466164.231000
+Z13 !s90 -reportprogress|300|-93|-work|work|Lab_06_6_1200mv_85c_slow.vho|
+Z14 !s107 Lab_06_6_1200mv_85c_slow.vho|
+Z15 o-93 -work work -O0
+Z16 tExplicit 1
+Astructure
+R2
+R3
+R4
+R5
+R6
+R7
+DEx4 work 6 lab_06 0 22 kGe8JBeH?6C24dl>>TcRO1
+l3848
+L71
+V0nk_dJT_R_KYi=m4X82PA0
+!s100 bcTNb1S]G7:R;<C2U1oZG1
+R11
+31
+!i10b 1
+R12
+R13
+R14
+R15
+R16
